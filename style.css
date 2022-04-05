@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    background-color: #141414;
+}
+
+.branding {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu-item {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    margin: 5px;
+    width: 40px;
+    border-radius: 10%;
+
+}
+
+.username {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
