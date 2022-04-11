@@ -55,3 +55,20 @@
     color: white;
     
 }
+
+.books {
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 25px;
+    margin: 40px;
+    
+}
+
+.book {
+    padding: 110px 80px;
+    
+    background-color: gray;
+}
