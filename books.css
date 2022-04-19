@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    background-color: #333;
+}
+
+.branding {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu-item {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.notifications {
+    color: white;
+    margin: 13px;
+}
+
+.profile-picture {
+    margin: 5px;
+    width: 30px;
+    border-radius: 10%;
+
+}
+
+.username {
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.extra-menu {
+    margin: 12px;
+    color: white;
+    
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 25px;
+    margin: 40px;
+    
+}
+
+.book {
+    padding: 110px 80px;
+    background-color: gray;
+
+}
