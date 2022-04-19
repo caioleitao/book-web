@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -18,8 +19,6 @@
     margin: 20px;
     color: white;
     text-decoration: none;
-
-    font-family: sans-serif;
     
 }
 
@@ -27,7 +26,6 @@
     margin: 20px;
     color: white;
     text-decoration: none;
-    font-family: sans-serif;
 }
 
 .profile-info {
@@ -51,11 +49,26 @@
     margin: 15px;
     color: white;
     text-decoration: none;
-    font-family: sans-serif;
 }
 
 .extra-menu {
     margin: 12px;
     color: white;
     
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 25px;
+    margin: 40px;
+    
+}
+
+.book {
+    padding: 110px 80px;
+    background-color: gray;
+
 }
